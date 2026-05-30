@@ -1,3 +1,6 @@
+// S - Há uma única responsabilidade pela classe ConsumoServico
+// D - Depende de uma interface para seu funcionamento.
+
 package com.daiane.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;

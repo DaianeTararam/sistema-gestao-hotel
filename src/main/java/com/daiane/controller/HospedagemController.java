@@ -1,3 +1,5 @@
+// S - trata apenas requisições relacionadas a Hospedagem
+// D - depende da interface do repositório, não da implementação
 package com.daiane.controller;
 
 import java.time.LocalDate;
@@ -14,8 +16,6 @@ import com.daiane.repository.HospedagemRepository;
 import com.daiane.repository.QuartoRepository;
 import com.daiane.repository.ServicoRepository;
 
-// S - Single Responsibility: trata apenas requisições relacionadas a Hospedagem
-// D - Dependency Inversion: depende da interface do repositório, não da implementação
 @Controller
 public class HospedagemController {
 

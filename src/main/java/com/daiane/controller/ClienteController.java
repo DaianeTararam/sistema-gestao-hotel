@@ -1,3 +1,7 @@
+/*
+ * S - Esta classe tem a responsabilidade única de cuidar apenas do cliente
+ * D - Esta classe também depende apenas do ClienteRepository
+ */
 package com.daiane.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;

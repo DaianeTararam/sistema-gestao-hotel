@@ -33,13 +33,13 @@ public class RelatorioReservasController {
 	private DataSource ds;
 
 	@GetMapping("/relatorio/reservas")
-	public ModelAndView relatorioExtratoGet() {
+	public ModelAndView relatorioReservasGet() {
 		return new ModelAndView("relatorios");
 	}
 	
 	@SuppressWarnings({"rawtypes", "unchecked"})
 	@PostMapping("/relatorio/reservas")
-	public ResponseEntity relatorioExtratoPost(@RequestParam Map<String, String> params, ModelMap model) {
+	public ResponseEntity relatorioReservasPost(@RequestParam Map<String, String> params, ModelMap model) {
 		String erro = "";
 		String data = params.get("data");
 		

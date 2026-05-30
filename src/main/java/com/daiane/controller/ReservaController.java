@@ -12,8 +12,8 @@ import com.daiane.repository.ClienteRepository;
 import com.daiane.repository.QuartoRepository;
 import com.daiane.repository.ReservaRepository;
 
-// S - Single Responsibility: trata apenas requisições relacionadas a Reserva
-// D - Dependency Inversion: depende de interfaces de repositório, não de implementações
+// S - trata apenas requisições relacionadas a Reserva
+// D - depende de interfaces de repositório, não de implementações
 @Controller
 public class ReservaController {
 

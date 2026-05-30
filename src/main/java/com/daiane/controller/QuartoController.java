@@ -1,3 +1,5 @@
+// S - trata apenas requisições relacionadas a Quarto
+// D - depende de interfaces de repositório, não de implementações
 package com.daiane.controller;
 
 import java.time.LocalDate;
@@ -18,8 +20,7 @@ import com.daiane.repository.HospedagemRepository;
 import com.daiane.repository.QuartoRepository;
 import com.daiane.repository.ReservaRepository;
 
-// S - Single Responsibility: trata apenas requisições relacionadas a Quarto
-// D - Dependency Inversion: depende de interfaces de repositório, não de implementações
+
 @Controller
 public class QuartoController {
 

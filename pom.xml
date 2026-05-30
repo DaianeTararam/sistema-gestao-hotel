@@ -12,9 +12,9 @@
 	<artifactId>Hotel</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
-	<name>Oráculo de Futebol</name>
-	<description>Sistema de gestão de curiosidades dos 4 principais times de fubetol de São Paulo.</description>
-	<url>http://localhost:8080/Faculdade</url>
+	<name>Gestao de Hotel</name>
+	<description>Sistema de gestão de hotel</description>
+	<url>http://localhost:8080/Hotel</url>
 	
 	<developers>
         <developer>
@@ -32,9 +32,9 @@
     </developers>
     
 	<scm>
-	    <connection>scm:git:https://github.com/DaianeTararam/Av2LabBD-SistemaOraculo.git</connection>
-	    <developerConnection>scm:git:https://github.com/DaianeTararam/Av2LabBD-SistemaOraculo.git</developerConnection>
-	    <url>https://github.com/DaianeTararam/Av2LabBD-SistemaOraculo</url>
+	    <connection>scm:git:https://github.com/DaianeTararam/sistema-gestao-hotel</connection>
+	    <developerConnection>scm:git:https://github.com/DaianeTararam/sistema-gestao-hotel</developerConnection>
+	    <url>https://github.com/DaianeTararam/sistema-gestao-hotel</url>
 	    <tag>HEAD</tag>
 	</scm>
 	<properties>

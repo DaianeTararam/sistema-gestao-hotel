@@ -10,14 +10,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.daiane.model.Cliente;
 import com.daiane.model.Quarto;
 import com.daiane.model.Servico;
 import com.daiane.model.TipoQuarto;
+import com.daiane.repository.ClienteRepository;
 import com.daiane.repository.QuartoRepository;
 import com.daiane.repository.ServicoRepository;
 import com.daiane.repository.TipoQuartoRepository;
 
-// S - Single Responsibility: responsável apenas por inicializar os dados do sistema
+// S - responsável apenas por inicializar os dados do sistema
 @Controller
 public class InicializarController {
 
@@ -29,6 +31,9 @@ public class InicializarController {
 
     @Autowired
     private ServicoRepository sRepo;
+    
+    @Autowired 
+    private ClienteRepository cRepo;
 
     @GetMapping("/inicializar")
     public ModelAndView inicializar() {
@@ -84,6 +89,23 @@ public class InicializarController {
                 }
                 brServico.close();
             }
+            
+            if (cRepo.count() == 0) {
+                InputStream isCliente = getClass().getResourceAsStream("/clientes_teste.txt");
+                BufferedReader brCliente = new BufferedReader(new InputStreamReader(isCliente, "UTF-8"));
+                String linhaCliente;
+                while ((linhaCliente = brCliente.readLine()) != null) {
+                    String[] dados = linhaCliente.split(";");
+                    Cliente c = new Cliente();
+                    c.setCpf(dados[0]);
+                    c.setNome(dados[1]);
+                    c.setTelefone(dados[2]);
+                    c.setCidade(dados[3]);
+                    cRepo.save(c);
+                }
+                brCliente.close();
+            }
+
 
         } catch (Exception e) {
             e.printStackTrace();
