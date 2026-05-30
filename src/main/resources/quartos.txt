@@ -1,0 +1,20 @@
+101;1;Cama de casal, vista para o jardim, ar-condicionado e TV 40;1
+102;1;Duas camas de solteiro, vista para o jardim, ar-condicionado;1
+103;1;Cama de casal, vista interna, ar-condicionado e frigobar;1
+104;1;Duas camas de solteiro, vista interna, ar-condicionado;1
+201;2;Cama de casal, vista para a piscina, ar-condicionado e TV 40;1
+202;2;Duas camas de solteiro, vista para a piscina, ar-condicionado;1
+203;2;Cama de casal, varanda pequena, ar-condicionado e frigobar;1
+204;2;Duas camas de solteiro, varanda pequena, ar-condicionado;1
+301;3;Cama king size, vista panoramica da cidade, frigobar e cofre;2
+302;3;Cama king size, vista para o jardim, banheira e frigobar;2
+303;3;Cama queen size, vista para a piscina, escrivaninha executiva;2
+304;3;Duas camas de casal, vista panoramica, sala de estar compacta;2
+401;4;Cama king size, vista para o parque, banheira de hidromassagem;2
+402;4;Cama king size, vista panoramica, sala de estar e frigobar premium;2
+403;4;Cama queen size, varanda privativa, frigobar e cofre;2
+404;4;Suite duplex, duas camas queen size, sala separada e varanda;2
+501;5;Suite presidencial, cama king size, jacuzzi, sala de estar e vista 360;3
+502;5;Suite master, cama king size, banheira de imersao e varanda panoramica;3
+503;5;Suite luxo, cama king size, sala de jantar privativa e frigobar gourmet;3
+504;5;Suite nupcial, cama king size, decoracao romantica e jacuzzi privativa;3

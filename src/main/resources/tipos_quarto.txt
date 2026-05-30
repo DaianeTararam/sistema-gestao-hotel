@@ -1,0 +1,3 @@
+Standard;180.00
+Executivo;350.00
+Master VIP;750.00

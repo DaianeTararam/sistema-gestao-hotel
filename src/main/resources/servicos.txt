@@ -1,0 +1,8 @@
+Cafe da Manha Especial;Buffet completo com frutas, paes artesanais e sucos naturais;45.00
+Almoco Executivo;Prato principal, bebida e sobremesa do dia no restaurante;65.50
+Jantar a la Carte;Menu completo com massas, carnes e vinhos selecionados;85.00
+Lavanderia Express;Lavagem e passagem de roupas entregues em 4 horas;25.00
+Frigobar Premium;Reposicao completa com bebidas, snacks e chocolates importados;30.00
+SPA e Sauna;Acesso a area de relaxamento, sauna seca e piscina aquecida;50.00
+Transfer Aeroporto;Transporte privativo de ida ou volta ao aeroporto;120.00
+Room Service 24h;Refeicoes e bebidas entregues no quarto a qualquer hora;15.00
