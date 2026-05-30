@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte de uma avaliação acadêmica, com o ob
 É um projeto Java Web criado com o **Maven**, que teve como propósito aprofundar o aprendizado em tecnologias na qual estou me desenvolvendo.
 
 ## Princípios SOLID
-[cite_start]O código-fonte da aplicação encontra-se documentado e comentado explicitando a aplicação dos princípios arquiteturais avaliados[cite: 20]:
+[cite_start]O código-fonte da aplicação encontra-se documentado e comentado explicitando a aplicação dos princípios arquiteturais avaliados:
 
 * **[S] Responsabilidade Única:** Separei o código para cada parte fazer apenas uma coisa. Os Models só guardam os dados, os Controllers controlam o que aparece na tela e os Repositories conversam direto com o banco de dados.
 * **[O] Aberto/Fechado:** Usei as ferramentas do Spring para criar consultas personalizadas no banco de dados sem precisar mexer ou estragar a estrutura que já estava pronta no sistema.
@@ -31,6 +31,7 @@ Evidências da usabilidade (UX), estilização com Bootstrap/CSS e barramentos d
 
 ### Listagem e Gestão de Clientes
 ![Tela Clientes](doc/tela-clientes.png)
+> **Observação:** Todos os CPFs e dados exibidos na tela de clientes são totalmente fictícios e foram gerados através da plataforma 4Devs exclusivamente para fins de testes do sistema.
 
 ### Formulário de Cadastro e Edição de Clientes
 ![Formulário de Clientes](doc/tela-formulario-cliente.png)
@@ -70,6 +71,7 @@ Módulo especialista para geração de PDFs blindados contra dados nulos e inter
 - Documentação do CSS3
 - CSS Layout : [MDN Web Docs](https://developer.mozilla.org/pt-BR/)
 - Estilização e componentes: [Bootstrap](https://bootstrap.com/)
+- Geração de Pessoas: [4Devs](https://www.4devs.com.br/gerador_de_pessoas)
 - Consultas SQL e Procedures e UDFs: Baseadas nas aulas de Laboratório de Banco de Dados e Banco de Dados - Fatec ZL.
 ---
 **Desenvolvido por Daiane Tararam**  
